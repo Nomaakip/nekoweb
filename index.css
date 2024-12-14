@@ -1,11 +1,32 @@
 @import url('https://fonts.cdnfonts.com/css/kristen-itc');
 
+
+body {
+    background-image: url(2c17c35051314624349f4fa57794a91f.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5%;
+display: flex;
+width: 1800px;
+height: 800px;
+border-radius: 4px;
+background-image: linear-gradient(45deg, #f4bcdc 25%, #f3cae3 25%, #f3cae3 50%, #f4bcdc 50%, #f4bcdc 75%, #f3cae3 75%, #f3cae3 100%);
+background-size: 50px 50px;
+}
+
 .welcome {
+    border-radius: 4px;
     border: 2px solid black;
     height:500px;
     width: 340px;
     margin-left: 40%;
     margin-right: 40%;
+    background-image: url('striped-paper-texture_1203-1925.avif');
 }
 
 .h1-welcome {
@@ -20,6 +41,9 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 159, 210);
 }
 
 .abt {
@@ -40,3 +64,22 @@ li {
     font-style: normal;
     font-variation-settings:none;
 }
+
+.miku {
+    height: 150px;
+    width: 150px;
+    transform: rotate(40deg);
+    margin-left: 80%;
+    margin-top: 30%;
+}
+
+.blinkies {
+    overflow: hidden;
+display: flex;
+padding-bottom: 20px;
+}
+.blinkies img {
+    overflow: hidden;
+}
+
+
